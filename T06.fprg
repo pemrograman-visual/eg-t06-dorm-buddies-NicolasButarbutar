@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="X02"/>
-        <attribute name="authors" value="USER"/>
+        <attribute name="name" value="T06"/>
+        <attribute name="authors" value="Nicolas Julian"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-12-04 04:45:50 PM"/>
+        <attribute name="saved" value="2024-12-04 04:47:55 PM"/>
         <attribute name="created" value="VVNFUjtMQVBUT1AtQjc2M09HUTY7MjAyNC0xMi0wNDswMzozMToyMSBQTTsyNjA4"/>
         <attribute name="edited" value="VVNFUjtMQVBUT1AtQjc2M09HUTY7MjAyNC0xMi0wNDswNDowMzoxNiBQTTszOzI3MjI="/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtRjc4Q0hCNkc7MjAyNC0xMi0wNDswNDo0NTo1MCBQTTsxOzI3MjE="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtRjc4Q0hCNkc7MjAyNC0xMi0wNDswNDo0Nzo1NSBQTTsxOzI3Mjg="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
