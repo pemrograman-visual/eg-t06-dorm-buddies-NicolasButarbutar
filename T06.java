@@ -8,45 +8,41 @@ public class T06 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String[] name = new String[4];
-        int i;
+        String[] nama = new String[4];
 
-        i = 0;
-        initialized(name, i);
-        var_input(name);
-        output(name);
+        fungsi1(nama);
+        fungsi2(nama);
     }
     
-    public static void initialized(String[] name, int i) {
-        String initialized;
+    public static void fungsi1(String[] nama) {
+        int p;
 
-        for (i = 0; i <= 3; i++) {
-            name[i] = "";
+        for (p = 0; p <= 3; p++) {
+            nama[p] = "";
         }
     }
     
-    public static void var_input(String[] name) {
-        String var_input;
-        int i;
+    public static void fungsi2(String[] nama) {
+        int x, a;
 
-        for (i = 0; i <= 3; i++) {
-            name[i] = input.nextLine();
-            if (name[i].equals("---")) {
-                i = 9;
-            }
-        }
-    }
-    
-    public static void output(String[] name) {
-        String output;
-        int i;
-
-        for (i = 0; i <= 3; i++) {
-            if (name[i].equals("---")) {
-                i = 72;
+        for (x = 0; x <= 3; x++) {
+            nama[x] = input.nextLine();
+            if (nama[x].equals("---")) {
+                nama[x] = "";
+                a = x;
+                x = 4;
             } else {
-                System.out.println(name[i]);
+                a = x;
             }
+        }
+        fungsi3(nama);
+    }
+    
+    public static void fungsi3(String[] nama) {
+        int c;
+
+        for (c = 0; c <= 3; c++) {
+            System.out.println(nama[c]);
         }
     }
 }
