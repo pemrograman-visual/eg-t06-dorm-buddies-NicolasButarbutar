@@ -8,44 +8,44 @@ public class T06 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String[] nama = new String[4];
+        String[] name = new String[4];
         int i;
 
         i = 0;
-        initialized(nama, i);
-        var_input(nama);
-        output(nama);
+        initialized(name, i);
+        var_input(name);
+        output(name);
     }
     
-    public static void initialized(String[] nama, int i) {
+    public static void initialized(String[] name, int i) {
         String initialized;
 
         for (i = 0; i <= 3; i++) {
-            nama[i] = "";
+            name[i] = "";
         }
     }
     
-    public static void var_input(String[] nama) {
+    public static void var_input(String[] name) {
         String var_input;
         int i;
 
         for (i = 0; i <= 3; i++) {
-            nama[i] = input.nextLine();
-            if (nama[i].equals("---")) {
+            name[i] = input.nextLine();
+            if (name[i].equals("---")) {
                 i = 9;
             }
         }
     }
     
-    public static void output(String[] nama) {
+    public static void output(String[] name) {
         String output;
         int i;
 
         for (i = 0; i <= 3; i++) {
-            if (nama[i].equals("---")) {
+            if (name[i].equals("---")) {
                 i = 72;
             } else {
-                System.out.println(nama[i]);
+                System.out.println(name[i]);
             }
         }
     }
